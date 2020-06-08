@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+
+.header {
+    padding: 25px;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(136, 82, 82);
+}
+
+.header h1 {
+    color: white;
+    font-size: 45px;
+    display: inline;
+    padding-left: 600px;
+}
+
+.header-list li {
+    color: white;
+    font-size: 20px;
+    float: right;
+    vertical-align: middle;
+    padding: 0 50px;
+}
+
+.main {
+    position: relative;
+}
+
+.main p {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    font-family :Quicksand, sans-serif;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+
+.main  img {
+    width: 100%;
+}
+
+
+
