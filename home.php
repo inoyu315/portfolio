@@ -4,21 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css"/>
-    <title>FaBon</title>
+    <title>Favorite Restaurant</title>
 </head>
 <body>
     <div class="header">
-        <h1>FaBon!</h1>
+        <div class="header-logo">Favorite Restaurant</div>
         <div class="header-list">
-        <ul>
+            <ul>
             <li>ログイン</li>
             <li>会員登録</li>
-        </ul>
+            </ul>
         </div>
     </div>
     <div class="main">
-        <p>FaBonはあなたのfavoriteな本を紹介できるサイトです。</p>
-        <img src="photos/screen.jpg" alt="本とクッキー">
+        <div class="content">
+            <h1 class="sample1">Favorite Restaurant</h1>
+            <p class="sample2">あなたのfavoriteな飲食店を紹介できるサイトです。</p>
+        </div>
+        <img src="photos/oryouri.jpg" alt="料理の写真">
     </div>
 </body>
 </html>

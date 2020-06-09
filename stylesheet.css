@@ -7,47 +7,51 @@ li {
     list-style: none;
 }
 
-
 .header {
     padding: 25px;
-    width: 100%;
-    height: 80px;
+    height: 70px;
     background-color: rgb(136, 82, 82);
 }
 
-.header h1 {
+.header-logo {
     color: white;
     font-size: 45px;
-    display: inline;
-    padding-left: 600px;
+    float: left;
 }
 
 .header-list li {
     color: white;
     font-size: 20px;
     float: right;
-    vertical-align: middle;
-    padding: 0 50px;
+    padding: 30px 50px;
 }
 
 .main {
     position: relative;
 }
 
-.main p {
+.sample1 {
     position: absolute;
-    color: white;
-    font-weight: bold;
-    font-size: 2em;
-    font-family :Quicksand, sans-serif;
-    transform: translate(-50%,-50%);
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    transform: translate(-50%, -200%);
     top: 50%;
     left: 50%;
+    background-color: rgba(179, 158, 158, 0.55);
 }
 
-.main  img {
+.sample2 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    font-size: 30px;
+    font-family: Quicksand, sans-serif;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-color: rgba(179, 158, 158, 0.55);
+}
+
+.main img {
     width: 100%;
 }
-
-
-
