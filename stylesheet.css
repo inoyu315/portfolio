@@ -26,6 +26,15 @@ li {
     padding: 30px 50px;
 }
 
+.header-list a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(151, 151, 151);
+}
+
 .main {
     position: relative;
 }
@@ -54,4 +63,37 @@ li {
 
 .main img {
     width: 100%;
+}
+
+form {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 90px;
+    margin-top: 50px;
+    margin-left: 460px;
+    margin-right: 460px;
+    border: 1px solid rgb(10, 10, 10);
+    background-color: rgb(214, 193, 189);
+}
+
+form h1 {
+    padding-bottom: 30px;
+    font-weight: lighter;
+}
+
+form p {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.error {
+    color: rgb(236, 49, 16);
+    text-decoration: underline;
+}
+
+span {
+    background-color: tomato;
+    color: white;
+    padding: 3px;
+    margin-left: 5px;
 }

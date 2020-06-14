@@ -11,12 +11,12 @@
         <div class="header-logo">Favorite Restaurant</div>
         <div class="header-list">
             <ul>
-            <li><a href="login.php">ログイン</a></li>
-            <li><a href="join/index.php">会員登録</a></li>
+            <li><a href="../login.php">ログイン</a></li>
+            <li><a href="index.php">会員登録</a></li>
             </ul>
         </div>
     </div>
-    <form action="check.php" method="post">
+    <form action="" method="post">
         <h1>会員登録</h1>
         <p>登録が完了しました。</p>
     </form>
