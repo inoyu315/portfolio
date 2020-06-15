@@ -64,7 +64,7 @@ if ($_REQUEST['action'] == 'rewrite' && isset($_SESSION['join'])) {
 </head>
 <body>
     <div class="header">
-        <div class="header-logo">Favorite Restaurant</div>
+        <div class="header-logo"><a href="../home.php">Favorite Restaurant</a></div>
         <div class="header-list">
             <ul>
             <li><a href="../login.php">ログイン</a></li>
